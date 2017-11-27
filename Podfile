@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+
+use_frameworks!
+
+def pods
+  pod 'SnapKit'
+  pod 'SwiftyJSON'
+end
+
+target 'CreditCardValidator' do
+  pods
+end
